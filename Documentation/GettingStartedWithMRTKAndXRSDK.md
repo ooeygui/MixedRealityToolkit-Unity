@@ -26,7 +26,7 @@ For MRTK 2.3, Windows Mixed Reality is supported on XR SDK.
 
 ### Required in MRTK
 
-Choose the "DefaultXRSDKConfigurationProfile" as the active profile or clone it to make customizations. This profile is set up with MRTK's XR SDK systems and providers, where needed. If you want to migrate an existing profile to XR SDK, the following services and data providers should be updated:
+Choose the "DefaultXRSDKConfigurationProfile" as the active profile by selecting MixedRealityToolkit in the Hierarchy. Clone the configuration if you haven't already in order to make customizations. This profile is set up with MRTK's XR SDK systems and providers, where needed. If you want to migrate an existing profile to XR SDK, the following services and data providers should be updated:
 
 | Feature | Legacy XR pipeline | XR SDK |
 |---------|--------------------|--------|
